@@ -24,9 +24,7 @@ const CartItem = ({ onContinueShopping }) => {
   );
     };
 
-  const handleContinueShopping = (e) => {
-   onContinueShopping(e);
-  };
+  const handleContinueShopping = onContinueShopping;
 
   const handleCheckoutShopping = (e) => {
     alert('Coming Soon');
