@@ -24,10 +24,6 @@ const CartItem = ({ onContinueShopping }) => {
   );
     };
 
-const handleContinueShopping = (e) => {
-    onContinueShopping(e);
-};
-
   const handleCheckoutShopping = (e) => {
     alert("Coming Soon");
 };
@@ -85,7 +81,7 @@ const handleContinueShopping = (e) => {
         ))}
       </div>
       <div className="continue_shopping_btn">
-        <button className="get-started-button" onClick={(e) => handleContinueShopping(e)}>Continue Shopping</button>
+        <button className="get-started-button"  onClick={onContinueShopping}>Continue Shopping</button>
         <br />
         <button className="get-started-button1"
         onClick={handleCheckoutShopping}>Checkout</button>
