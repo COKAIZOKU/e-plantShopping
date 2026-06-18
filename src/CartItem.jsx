@@ -29,7 +29,7 @@ const handleContinueShopping = (e) => {
 };
 
   const handleCheckoutShopping = (e) => {
-    alert('Coming Soon');
+    alert("Coming Soon");
 };
 
   const handleIncrement = (item) => {
@@ -64,7 +64,7 @@ const handleContinueShopping = (e) => {
     <div className="cart-container">
       <h2 style={{ color: 'black' }}>Total Cart Amount: ${calculateTotalAmount()}</h2>
             <h2 style={{ color: 'black' }}>
-        Total Cart Quantity: {calculateTotalQuantity()}
+        Total Number of Plants: {calculateTotalQuantity()}
         </h2>
       <div>
         {cart.map(item => (
